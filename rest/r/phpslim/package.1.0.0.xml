@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.8.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PhpSlim</name>
+ <channel>ggramlich.github.com</channel>
+ <summary>Php port of Slim</summary>
+ <description>PhpSlim is the PHP port of Robert C. Martin&apos;s Slim
+(Simple List Invocation Method).
+
+It is written and maintained by Gregor Gramlich.
+
+You need a copy of FitNesse to run the FitNesse wiki.
+Download the latest release (use the zip file) from
+http://fitnesse.org/FitNesseDevelopment.DownLoad</description>
+ <lead>
+  <name>Gregor Gramlich</name>
+  <user>ggramlich</user>
+  <email>gramlich@eosc.de</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-06-28</date>
+ <time>02:05:36</time>
+ <version>
+  <release>1.0.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.php.net/license">PHP License</license>
+ <notes>
+First release of PhpSlim as PEAR package.
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="9b0339942fc36fbb28e7d516907f03d0" name="PhpSlim/AutoLoader.php" role="php" />
+   <file baseinstalldir="/" md5sum="ea3bad71e834eabd32396990ebf81c3f" name="PhpSlim/ListDeserializer.php" role="php" />
+   <file baseinstalldir="/" md5sum="08c631f69eeadc0d063474a02f2bcd2c" name="PhpSlim/ListExecutor.php" role="php" />
+   <file baseinstalldir="/" md5sum="806e2bad9265477e0e0911309f5d6319" name="PhpSlim/ListSerializer.php" role="php" />
+   <file baseinstalldir="/" md5sum="c60931bacea65749bcabe283f2bab4a5" name="PhpSlim/Logger.php" role="php" />
+   <file baseinstalldir="/" md5sum="8bc57e65ae2ab486a575b9538b152f28" name="PhpSlim/Server.php" role="php" />
+   <file baseinstalldir="/" md5sum="1768e7c2bced24637e24f5ad967779c0" name="PhpSlim/SlimError.php" role="php" />
+   <file baseinstalldir="/" md5sum="776cdfa9111221c972707eb6ce414739" name="PhpSlim/Socket.php" role="php" />
+   <file baseinstalldir="/" md5sum="550315690c42be20d510a12c9cd2318f" name="PhpSlim/SocketService.php" role="php" />
+   <file baseinstalldir="/" md5sum="2f2313739504e2bcd30cbc98f449261b" name="PhpSlim/Statement.php" role="php" />
+   <file baseinstalldir="/" md5sum="b4a51b45ed903e3cf10b7eaec971827e" name="PhpSlim/StatementExecutor.php" role="php" />
+   <file baseinstalldir="/" md5sum="ce5c6e6cd4cf9a23d6ea65f75226f16e" name="PhpSlim/SymbolRepository.php" role="php" />
+   <file baseinstalldir="/" md5sum="9cb736d57e73f3e3f42d41f479bc23aa" name="PhpSlim/TypeConverter.php" role="php" />
+   <file baseinstalldir="/" md5sum="c514151c58640d688e021d1d920ebd67" name="PhpSlim/ListDeserializer/Deserializer.php" role="php" />
+   <file baseinstalldir="/" md5sum="d2ab9fafdc91988a9fa8465f80e56936" name="PhpSlim/ListDeserializer/SyntaxError.php" role="php" />
+   <file baseinstalldir="/" md5sum="e28076bc4fe40e8bda193d57007997aa" name="PhpSlim/Logger/Echo.php" role="php" />
+   <file baseinstalldir="/" md5sum="c65de940e56b3cad4c2129286b31d7b4" name="PhpSlim/Logger/Error.php" role="php" />
+   <file baseinstalldir="/" md5sum="61922ea6104dd2a7d53476b13717097b" name="PhpSlim/Logger/Null.php" role="php" />
+   <file baseinstalldir="/" md5sum="e7055d07334cee2ffdf503c6fdd964af" name="PhpSlim/SlimError/Message.php" role="php" />
+   <file baseinstalldir="/" md5sum="63981b00501307792272cae588187d9c" name="PhpSlim/SlimError/StopTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="56f32332b18e6cd9037b8149c8ddc493" name="script/pear-runPhpSlim" role="script">
+    <tasks:replace from="@PHP-BIN@" to="php_bin" type="pear-config" />
+    <tasks:unixeol />
+   </file>
+   <file baseinstalldir="/" md5sum="a9abd6b8bab799bddbe6f7382cfe77ed" name="script/pear-runPhpSlim.bat" role="script">
+    <tasks:replace from="@PHP-BIN@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@BIN-DIR@" to="bin_dir" type="pear-config" />
+    <tasks:windowseol />
+   </file>
+   <file baseinstalldir="/" md5sum="9e00a9b7c52a0cf26e6381be05fe6e6e" name="script/runPhpSlim" role="script" />
+   <file baseinstalldir="/" md5sum="0e34cc79d741cdc5468de6dc383d3d04" name="script/runPhpSlim.bat" role="script" />
+   <file baseinstalldir="/" md5sum="96c727abeef6b8e945ddf26843df71f1" name="PhpSlim.php" role="php" />
+   <file baseinstalldir="/" md5sum="9936cb6f73469e71cd4a3245cff7c3f5" name="README" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.1.2</min>
+   </php>
+   <pearinstaller>
+    <min>1.8.0</min>
+   </pearinstaller>
+   <extension>
+    <name>mbstring</name>
+   </extension>
+   <extension>
+    <name>pcre</name>
+   </extension>
+   <extension>
+    <name>SPL</name>
+   </extension>
+   <extension>
+    <name>sockets</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease>
+  <installconditions>
+   <os>
+    <name>windows</name>
+   </os>
+  </installconditions>
+  <filelist>
+   <install as="runPhpSlim.bat" name="script/pear-runPhpSlim.bat" />
+   <install as="runPhpSlim" name="script/pear-runPhpSlim" />
+   <ignore name="script/runPhpSlim" />
+   <ignore name="script/runPhpSlim.bat" />
+  </filelist>
+ </phprelease>
+ <phprelease>
+  <filelist>
+   <install as="runPhpSlim" name="script/pear-runPhpSlim" />
+   <ignore name="script/pear-runPhpSlim.bat" />
+   <ignore name="script/runPhpSlim" />
+   <ignore name="script/runPhpSlim.bat" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2009-06-28</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>
+First release of PhpSlim as PEAR package.
+   </notes>
+  </release>
+ </changelog>
+</package>

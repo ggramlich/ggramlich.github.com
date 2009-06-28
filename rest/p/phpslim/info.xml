@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <n>PhpSlim</n>
+ <c>ggramlich.github.com</c>
+ <ca xlink:href="rest/c/Default" xmlns:xlink="rest/c/Default">Default</ca>
+ <l>PHP License</l>
+ <s>Php port of Slim</s>
+ <d>PhpSlim is the PHP port of Robert C. Martin's Slim
+(Simple List Invocation Method).
+
+It is written and maintained by Gregor Gramlich.
+
+You need a copy of FitNesse to run the FitNesse wiki.
+Download the latest release (use the zip file) from
+http://fitnesse.org/FitNesseDevelopment.DownLoad</d>
+ <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+</p>

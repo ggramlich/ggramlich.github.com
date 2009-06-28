@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
+ <pi>
+  <p>
+   <n>PhpSlim</n>
+   <c>ggramlich.github.com</c>
+   <ca xmlns:xlink="rest/c/Default" xlink:href="rest/c/Default">Default</ca>
+   <l>PHP License</l>
+   <s>Php port of Slim</s>
+   <d>PhpSlim is the PHP port of Robert C. Martin's Slim
+(Simple List Invocation Method).
+
+It is written and maintained by Gregor Gramlich.
+
+You need a copy of FitNesse to run the FitNesse wiki.
+Download the latest release (use the zip file) from
+http://fitnesse.org/FitNesseDevelopment.DownLoad</d>
+   <r xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package http://pear.php.net/dtd/rest.package.xsd"/>
+  </p>
+  <a>
+   <r>
+    <v>1.0.0</v>
+    <s>stable</s>
+   </r>
+  </a>
+  <deps>
+   <v>1.0.0</v>
+   <d>a:1:{s:8:&quot;required&quot;;a:3:{s:3:&quot;php&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;5.1.2&quot;;}s:13:&quot;pearinstaller&quot;;a:1:{s:3:&quot;min&quot;;s:5:&quot;1.8.0&quot;;}s:9:&quot;extension&quot;;a:4:{i:0;a:1:{s:4:&quot;name&quot;;s:8:&quot;mbstring&quot;;}i:1;a:1:{s:4:&quot;name&quot;;s:4:&quot;pcre&quot;;}i:2;a:1:{s:4:&quot;name&quot;;s:3:&quot;SPL&quot;;}i:3;a:1:{s:4:&quot;name&quot;;s:7:&quot;sockets&quot;;}}}}</d>
+  </deps>
+ </pi>
+</f>
