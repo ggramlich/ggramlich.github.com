@@ -1,0 +1,10 @@
+---
+auto:     true
+pygments: true
+
+main_pages:
+ - name: Home
+   page: index.html
+# - name: Posts
+#   page: post.html
+
