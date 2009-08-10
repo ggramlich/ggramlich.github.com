@@ -76,7 +76,7 @@ public class ListExecutor {
 }
 {% endhighlight %}
 
-So I had the choice to subclass SlimService, SlimServer and ListExecutor or to go a different way.
+So I had the choice to extend SlimService, SlimServer and ListExecutor or to go a different way.
 The solution is a very light-weight inversion of control container that configures each Slim component.
 I introduced the SlimFactory. The Java version looks like this.
 
@@ -149,7 +149,7 @@ public class ListExecutor {
 {% endhighlight %}
 
 Finally I only needed a new PhpSlimFactory (in Java) and there was no need to 
-subclass SlimServer and ListExecutor, only the SlimService is subclassed
+extend SlimServer and ListExecutor, only the SlimService is extended
 to instantiate the PhpSlimFactory and the StatementExecutor to implement a Proxy
 that uses the Bridge.
 
@@ -227,7 +227,7 @@ public abstract class Jsr223StatementExecutor implements StatementExecutorInterf
 Of course there are many more problems that I faced and the PHP side that provides
 the StatementExecutor still has a lot of stuff to implement.
 But if [Uncle Bob](http://www.objectmentor.com/omTeam/martin_r.html) likes to
-incorporate the changes into the FitNesse code base we have a new base for
+incorporate the changes into the FitNesse code base we have a new foundation for
 much slimmer Slim ports, and JsSlim is about to come.
 
 With some more investigation, the JSR-223 Slim versions might even run with
