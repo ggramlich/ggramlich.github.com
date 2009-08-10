@@ -3,8 +3,8 @@ layout: post
 title: Making Slim even slimmer
 heading: Making Slim even slimmer with JSR-223
 ---
-Refactoring Slim with light-weight [IoC] approach
--------------------------------------------------
+Refactoring Slim with a light-weight [IoC] approach
+---------------------------------------------------
 
 In the last week, I spent some time preparing a new port of
 [Slim](http://fitnesse.org/FitNesse.UserGuide.SliM) to JavaScript.
