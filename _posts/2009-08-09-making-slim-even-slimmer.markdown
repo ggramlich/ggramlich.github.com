@@ -3,6 +3,9 @@ layout: post
 title: Making Slim even slimmer
 heading: Making Slim even slimmer with JSR-223
 ---
+Refactoring Slim with light-weight [IoC] approach
+-------------------------------------------------
+
 In the last week, I spent some time preparing a new port of
 [Slim](http://fitnesse.org/FitNesse.UserGuide.SliM) to JavaScript.
 In some way JsSlim should become my personal sequel to
@@ -40,7 +43,9 @@ To cut this short: I was able to push it so far, that only the StatementExecutor
 remain in PHP (and of course some Helper classes and the fixtures).
 
 One of the obstacles that I was facing:
-There is no dependency injection in Slim. So we have
+There is no use of
+[dependency injection](http://martinfowler.com/articles/injection.html)
+in Slim. So we have
 
 {% highlight java %}
 public class SlimService extends SocketService {
@@ -78,7 +83,9 @@ public class ListExecutor {
 
 So I had the choice to extend SlimService, SlimServer and ListExecutor or to go a different way.
 The solution is a very light-weight inversion of control container that configures each Slim component.
-I introduced the SlimFactory. The Java version looks like this.
+I introduced the SlimFactory, inspired by 
+[Jamis Buck](http://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming).
+The Java version looks like this.
 
 {% highlight java %}
 public class JavaSlimFactory extends SlimFactory {
