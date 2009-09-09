@@ -1,0 +1,52 @@
+.publication p.postscriptLink a {
+    background-image:url(../images/ps.gif);
+    background-repeat:no-repeat;
+    padding:5px 0 5px 30px;
+}
+
+.publication p.pdfLink a {
+    background-image:url(../images/pdf.gif);
+    background-repeat:no-repeat;
+    padding:5px 0 5px 30px;
+}
+
+.publication {
+    background:#f7f7f7;
+    padding:0.5em 1em;
+    border-top:2px dotted #111;
+}
+
+.publication.last {
+    border-bottom:2px dotted #111;
+}
+
+
+.publication p {
+    text-align:justify;
+    margin:0.5em 5em 0.5em 3em;
+}
+
+.publication p.abstract {
+    text-align:justify;
+    margin:0.5em 7em 1em 5em;
+}
+
+.publication p.published .title, .publication p.literature .title {
+    font-style:italic;
+}
+
+p.showhide a.show {
+    background-image:url(../images/plus.png);
+    background-repeat:no-repeat;
+    background-position:left;
+    padding-left:16px;
+}
+
+p.showhide a.hide {
+    background-image:url(../images/minus.png);
+    background-repeat:no-repeat;
+    background-position:left;
+    padding-left:16px;
+}
+
+

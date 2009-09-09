@@ -5,6 +5,8 @@ pygments: true
 main_pages:
  - name: Home
    page: index.html
+ - name: Publications
+   page: publications.html
 # - name: Posts
 #   page: post.html
 

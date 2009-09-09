@@ -247,5 +247,5 @@ ideas for packing and invoking the PHP script in a jar file.
 
 [classes_thumb]: /images/Slim/slim_classes_thumb.gif
 [classes]: /images/Slim/slim_classes.gif  "Click to enlarge"
-
+[IoC]: http://martinfowler.com/articles/injection.html
 

@@ -62,5 +62,9 @@
     {
         background-color:#bbb;
         color:#fff;
-    }    
+    }
+
+    #disqus_thread {
+        margin-top:2em;
+    }
 }
