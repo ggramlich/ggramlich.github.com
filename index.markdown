@@ -1,7 +1,7 @@
 ---
 layout: yaml
 title: Home
-heading: From theoretical to practical computer science.
+heading: From theoretical to practical computer science
 section: home
 ---
 In 2007 I finally made it. I got out of university, being 33, just successfully 
