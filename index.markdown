@@ -27,7 +27,7 @@ there is a lot of good written stuff that I absorbed.
 * [The SOLID principles](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
 * [Clean Code](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 * [Acceptance Testing](http://www.acceptancetesting.info/)
-* [Software Craftsmenship](http://manifesto.softwarecraftsmanship.org/)
+* [Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/)
 
 And then came the podcasts. I usually commute by bike and I used to listen to audio books.
 But I discovered, that there are so many good free tech podcasts available.
