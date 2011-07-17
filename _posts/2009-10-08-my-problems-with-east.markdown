@@ -10,7 +10,7 @@ blog post - so here it is. I was a bit worried, that I might look a little dumb 
 not getting it, but I think can explain my problems and I hope to get some advice.
 
 I was first pointed to [James Ladd's East principle](http://jamesladdcode.com/?p=12)
-by a tweet from [Robert C. Martin]((http://www.objectmentor.com/omTeam/martin_r.html).
+by a tweet from [Robert C. Martin](http://www.objectmentor.com/omTeam/martin_r.html).
 
 > [unclebobmartin](http://twitter.com/unclebobmartin) [http://bit.ly/up8Pm](http://bit.ly/up8Pm)
 > Go East, young developer, go East.
