@@ -6,8 +6,7 @@ section: home
 ---
 In 2007 I finally made it. I got out of university, being 33, just successfully 
 finished my doctorate in computer science. I confess - it was purely theoretical stuff
-and I liked it. My [old homepage](http://thi.informatik.uni-frankfurt.de/~gramlich)
-as a scientific assistant still exists.
+and I liked it.
 If you are interested, take a look at [my publications](publications.html).
 Actually the results have some practical
 implications, mainly I tell people, what not to do, because they cannot expect efficient solutions.
