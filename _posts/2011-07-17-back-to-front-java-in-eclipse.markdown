@@ -61,6 +61,7 @@ I know there is lots of room for improvement, e.g.:
 the code in the editor and didn't have MoreUnit installed.)
  * I forgot to change the declaration of the Map to use the interface instead of HashMap.
  * I could have used CTRL+1 to assign to local variable instead of extracting it.
+ * I should have written `put(.., 2 * map.get(key))` and later extracted the value variable.
 
 What I also use pretty often is
 [wishful thinking](http://dsoguy.blogspot.com/2007/01/programming-by-wishful-thinking.html),
