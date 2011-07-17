@@ -26,7 +26,7 @@ the way I re-learned programming, they are often amazed by it.
 For example to write something like this
 
 {% highlight java %}
-public Set ab() {
+public Set<String> ab() {
     Set<String> set = new HashSet<String>();
     set.add("a");
     set.add("b");
@@ -38,7 +38,7 @@ I usally have the method generated and then instead of writing the method body f
 I start with the result
 
 {% highlight java %}
-public Set ab() {
+public Set<String> ab() {
     return new HashSet<String>();
 }
 {% endhighlight %}
@@ -47,7 +47,7 @@ and then I extract it to a local variable. This helps me focus more on the resul
 instead of the clutter that I need to make the code compile.
 I called it back-to-front programming, but maybe someone has a better name for it.
 Starting with the result for the simplest case
-(if that where the empty set for some algorithm) also works pretty well with TDD.
+(if that were the empty set for some algorithm) also works pretty well with TDD.
 
 I put together a video where I show you a little bit of the stuff.
 
