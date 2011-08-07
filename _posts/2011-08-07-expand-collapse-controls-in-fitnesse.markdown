@@ -53,6 +53,7 @@ Old look of the Expand All | Collapse All links in every header of a collabsable
 
 ---
 
-If you like to see this included in FitNesse, leave a comment or answer to my mail on the fitnesse mailing list (link to the e-mail will follow).
+If you like to see this included in FitNesse, leave a comment or answer to
+[my mail on the fitnesse mailing list](http://tech.groups.yahoo.com/group/fitnesse/message/18061).
 
 
